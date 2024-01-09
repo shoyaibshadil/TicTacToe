@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game (Tic Tac Toe)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="container">
+        <div class="box-container">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <button id="reset-btn">Reset Game</button>
+
+
+    <div id="popupWindow" class="popupWindow">
+        <img src="./images/x-mark.png" alt="close-icon" class="close-icon">
+        <p id="msg">Display Result</p>
+        <button id="newGame-btn" onclick="resetGame()">New Game</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

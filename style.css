@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #393E46;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+h1 {
+    color: #A10035;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.container {
+    /* border: 2px solid yellow; */
+    height: 60dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-container {
+    border: 2px solid orangered;
+    border-radius: 1.4rem;
+    background-color: #495E57;
+    height: 40dvh;
+    width: 40dvh;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box {
+    height: 12vh;
+    width: 12vh;
+    border-radius: 1.5rem;
+    background-color: #222831;
+    font-size: 5rem;
+    color: #FFD369;
+    border: none;
+    box-shadow: 2px 5px 5px #000;
+}
+
+#reset-btn {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #A10035;
+    color: #EFE1D1;
+}
+
+
+/*Popup Window*/
+
+.popupWindow {
+    height: 20vh;
+    width: 20vh;
+    background: #F2F2F2;
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 3rem;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.popupWindow img {
+    width: 1.8rem;
+    height: 1.8rem;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    top: 0.9rem;
+    right: 0.9rem;
+    cursor: pointer;
+}
+
+.popupWindow p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #A10035;
+}
+
+#newGame-btn {
+    padding: 0.5rem;
+    font-weight: 550;
+    background-color: #CDBE78;
+    color: #383838;
+    border-radius: 0.5rem;
+}
+
+

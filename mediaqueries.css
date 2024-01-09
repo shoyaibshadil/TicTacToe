@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) 
+{
+    .box {
+        height: 25%;
+        width: 25%;
+        font-size: 250%;
+    }
+
+    .box-container {
+        padding: 0.9rem;
+    }
+
+    .popupWindow {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) 
+{
+    .box {
+        height: 21%;
+        width: 23%;
+        font-size: 200%;
+
+    }
+
+    .box-container {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .popupWindow {
+        margin-top: 2rem;
+    }
+}
