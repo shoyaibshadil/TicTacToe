@@ -1,17 +1,3 @@
-@media screen and (max-width : 1400px) {
-    .box {
-        font-size: 300%;
-    }
-
-    .box-container {
-        width: 25%;
-    }
-
-    .popupWindow {
-        margin-top: 2.5rem;
-    }
-    
-}
 
 @media screen and (max-width: 480px) 
 {
