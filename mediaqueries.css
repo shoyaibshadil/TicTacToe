@@ -1,6 +1,14 @@
-@media screen and (max-width : 1400) {
+@media screen and (max-width : 1900) {
+    .body {
+        font-size: 300%;
+    }
+
     .box-container {
-        width: 100%;
+        width: 25%;
+    }
+
+    .popupWindow {
+        margin-top: 2.5rem;
     }
     
 }
